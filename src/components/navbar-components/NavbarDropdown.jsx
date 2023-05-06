@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 
 
 
-const menuItemClass = (active: boolean, disabled: boolean) => ` ${disabled ? "text-gray-400  pointer-events-none" : active ? "bg-customYellow text-black" : "text-white"} flex items-center gap-2 cursor-pointer m-[1px] py-1 px-2 whitespace-nowrap`
+const menuItemClass = (active, disabled) => ` ${disabled ? "text-gray-400  pointer-events-none" : active ? "bg-customYellow text-black" : "text-white"} flex items-center gap-2 cursor-pointer m-[1px] py-1 px-2 whitespace-nowrap`
 
 const NavbarDropdown = () => {
     const { t } = useTranslation()

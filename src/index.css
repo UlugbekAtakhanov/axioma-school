@@ -6,12 +6,12 @@
 
 
 .main-container {
-    max-width: 1300px;
-    margin-inline: auto;
+  max-width: 1300px;
+  margin-inline: auto;
 }
 
 @media (width < 1300px) {
-    .main-container {
-        padding-block: 20px;
-    }
+  .main-container {
+    padding-block: 20px;
+  }
 }

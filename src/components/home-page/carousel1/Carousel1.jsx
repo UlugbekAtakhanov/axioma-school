@@ -32,13 +32,6 @@ export default function Carousel1() {
         { img: python, title: t("home_page.carousel1.python") },
         { img: backend, title: t("home_page.carousel1.backend") },
         { img: prodesign, title: t("home_page.carousel1.prodesign") },
-        { img: ks, title: t("home_page.carousel1.ks") },
-        { img: autocad, title: t("home_page.carousel1.autocad") },
-        { img: frontend, title: t("home_page.carousel1.frontend") },
-        { img: foundation, title: t("home_page.carousel1.foundation") },
-        { img: python, title: t("home_page.carousel1.python") },
-        { img: backend, title: t("home_page.carousel1.backend") },
-        { img: prodesign, title: t("home_page.carousel1.prodesign") },
     ]
 
     return (
@@ -75,7 +68,7 @@ export default function Carousel1() {
                     },
                 }}
                 modules={[Autoplay]}
-                className="home-page-carousel1"
+                className="home-page-carousel1 mySwiper"
             >
                 {carouselList.map((item, index) => (
                     <SwiperSlide key={index} className="relative">
