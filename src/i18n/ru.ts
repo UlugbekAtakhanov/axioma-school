@@ -21,7 +21,20 @@ export const ru = {
             link4: "ПОЗВОНИТЬ"
         },
 
-        
+        container1: {
+            header: "КУРСЫ СОВРЕМЕННЫХ ПРОФЕССИЙ",
+            linkButton: "НАЧАТЬ ОБУЧЕНИЕ",
+        },
+
+        carousel1: {
+            ks: "КОМПЬЮТЕРНАЯ ГРАММОТНОСТЬ",
+            autocad: "AUTOCAD & 3DS MAX ",
+            frontend: "Веб программирование",
+            foundation: "Foundation",
+            python: "Python",
+            backend: "Back-end",
+            prodesign: "Pro design",
+        }
 
     }
 }
