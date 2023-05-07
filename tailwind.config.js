@@ -6,7 +6,10 @@ module.exports = withMT({
     extend: {
       colors: {
         customYellow: "#EFFF04"
-      }
+      },
+      screens: {
+        'sm': '640px',
+      },
     },
   },
   plugins: [],
