@@ -68,7 +68,7 @@ export default function Carousel2() {
                 loop={true}
                 navigation={true}
                 modules={[Navigation, Pagination]}
-                className="home-page-carousel2 mySwiper"
+                className="home-page-carousel2 mySwiper main-container"
             >
                 {carouselList.map((item, index) => (
                     <SwiperSlide key={index}>

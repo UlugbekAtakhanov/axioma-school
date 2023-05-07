@@ -69,7 +69,7 @@ export default function Example() {
             ))}
 
             <div className="p-1 font-normal text-sm">
-                <select className="bg-transparent text-white border p-1 rounded text-xs">
+                <select className="bg-transparent text-white border p-[2px] rounded text-xs w-12">
                     <option className="text-black" value="">Ru</option>
                     <option className="text-black" value="">En</option>
                 </select>

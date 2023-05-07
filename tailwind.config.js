@@ -8,9 +8,10 @@ module.exports = withMT({
         customYellow: "#EFFF04"
       },
       screens: {
+        'xs': '500px',
         'sm': '640px',
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms'),],
 });

@@ -15,6 +15,22 @@ body {
 
 @media (width < 1300px) {
   .main-container {
-    padding-block: 20px;
+    padding-inline: 20px;
   }
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightgray;
+}
+
+::-webkit-scrollbar-thumbhover {
+  background: indigo;
 }
