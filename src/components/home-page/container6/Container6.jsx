@@ -1,31 +1,31 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import img1 from "../../../assets/container6/img1.png"
-import img2 from "../../../assets/container6/img2.png"
-import img3 from "../../../assets/container6/img3.png"
-import img4 from "../../../assets/container6/img4.png"
+import img11 from "../../../assets/container6/img11.png"
+import img22 from "../../../assets/container6/img22.png"
+import img33 from "../../../assets/container6/img33.png"
+import img44 from "../../../assets/container6/img44.png"
 
 const Container6 = () => {
     const { t } = useTranslation()
     return (
         <div className='py-12 sm:!p-[80px] main-container'>
-            <h1 className='text-[20px] sm:text-[30px] md:text-[45px] font-semibold text-[#303030] text-center mb-[20px]'>
+            <h1 className='text-[20px] mb-20 sm:text-[45px] font-semibold text-[#303030] text-center'>
                 {t("home_page.container6.header")}
             </h1>
 
-            <div className='grid grid-cols-1 items-center justify-center gap-[50px] md:grid-cols-[repeat(2,280px)] lg:grid-cols-2'>
+            <div className='grid grid-cols-1 items-end justify-center gap-[100px]  md:grid-cols-[repeat(2,280px)] lg:grid-cols-2'>
                 <div className=''>
-                    <img className='w-full' src={img1} alt="img" />
+                    <img className='w-full' src={img11} alt="img" />
                 </div>
                 <div className=''>
-                    <img className='w-full' src={img2} alt="img" />
+                    <img className='w-full' src={img22} alt="img" />
                 </div>
                 <div className=''>
-                    <img className='w-full' src={img3} alt="img" />
+                    <img className='w-full' src={img33} alt="img" />
                 </div>
                 <div className=''>
-                    <img className='w-full' src={img4} alt="img" />
+                    <img className='w-full' src={img44} alt="img" />
                 </div>
             </div>
 

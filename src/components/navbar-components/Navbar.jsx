@@ -80,7 +80,7 @@ export default function Example() {
 
     return (
         <div className="bg-[#151515]/100 sticky inset-0 z-10">
-            <Navbar className=" main-container bg-transparent border-none  h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+            <Navbar className=" main-container bg-transparent border-none  h-max max-w-full rounded-none p-0 px-4 lg:px-8">
                 <div className="flex items-center justify-between text-blue-gray-900">
                     <Typography
                         as={Link}
